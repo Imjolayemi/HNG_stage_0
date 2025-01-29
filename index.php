@@ -1,7 +1,7 @@
 <?php
 // public_api.php
 
-// Set headers to allow CORS and return JSON
+// headers that allows CORS and return JSON
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
@@ -10,11 +10,11 @@ function getCurrentDateTime() {
     return gmdate('Y-m-d\\TH:i:s\\Z');
 }
 
-// Define the response
+// Defining the response
 $response = [
-    "email" => "your-email@example.com", // Replace with your HNG12 Slack email
+    "email" => "nurudeen.jola@gmail.com", // HNG12 email
     "current_datetime" => getCurrentDateTime(),
-    "github_url" => "https://github.com/yourusername/your-repo" // Replace with your GitHub repo URL
+    "github_url" => "https://github.com/imjolayemi/HNG_stage_0" // GitHub repo URL
 ];
 
 // Return the response as JSON

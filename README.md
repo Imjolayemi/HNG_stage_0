@@ -16,7 +16,7 @@ This is a simple backend API developed for the HNG12 Stage 0 Task. The API retur
 
 ### Endpoint
 - **Method**: GET
-- **URL**: `<Your API Deployment URL>`
+- **URL**: `https://hng-stage-0-n1uo.onrender.com/`
 
 ### Response Format: JSON
 ```json
@@ -55,7 +55,7 @@ This is a simple backend API developed for the HNG12 Stage 0 Task. The API retur
 ## Deployment
 
 The API is deployed and publicly accessible at:
-- `<Your Deployment URL>`
+- `https://hng-stage-0-n1uo.onrender.com/`
 
 ---
 
